@@ -6,21 +6,29 @@
     body {
       width: 300px;
       height: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: Arial, sans-serif;
+    }
+    h2 {
+      margin-bottom: 20px;
+    }
+    button {
+      width: 80%;
+      padding: 10px;
+      margin: 5px 0;
+      font-size: 16px;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <button type="button" onclick="alert('Button clicked!')">
-    A:
-  </button>
-  <button type="button" onclick="alert('Button clicked!')">
-    B:
-  </button>
-  <button type="button" onclick="alert('Button clicked!')">
-    C:
-  </button>
-  <button type="button" onclick="alert('Button clicked!')">
-    D:
-  </button>
+  <h2>Quiz Lock</h2>
+  <button onclick="alert('Correct!')">A</button>
+  <button onclick="alert('Incorrect.')">B</button>
+  <button onclick="alert('Incorrect.')">C</button>
+  <button onclick="alert('Incorrect.')">D</button>
 </body>
 </html>
