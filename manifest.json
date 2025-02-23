@@ -4,6 +4,7 @@
     "version": "1.0",
     "description": "Reinforce your learning by taking a short quiz before being able to access certain sites",
     "permissions": ["activeTab", "storage"],
+    "options_page": "options.html",
     "background":{
         "service_worker" : "background.js" 
     },
